@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Izzi</title>
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar-side">
+        <div>
+          <img src="./assets/logo.png" alt="Izzi logo" />
+        </div>
+        <ul class="navbar-list">
+          <li>My Orders</li>
+          <li>Services</li>
+          <li>Help</li>
+        </ul>
+      </div>
+      <div class="navbar-side">
+        <button class="navbar-side-btn">
+          <img src="./assets/flash.png" alt="flash" />
+          <span>urgent</span>
+        </button>
+        <div class="navbar-side-user">
+          <img src="./assets/user.png" alt="user" />
+          <span>Elon Musk</span>
+        </div>
+        <img src="./assets/flag.png" alt="flag" />
+      </div>
+    </nav>
+
+    <!-- SECTION -->
+    <section class="section-one">
+      <h3>All Pros</h3>
+    </section>
+
+    <!-- SECTION -->
+    <section class="section-two">
+      <div class="section-two-filter">
+        <div class="section-two-filter-checkbox">
+          <h4>Filters</h4>
+          <div class="section-two-filter-checkbox-item">
+            <input
+              type="checkbox"
+              id="supervisorsCheckbox"
+              value="supervisor"
+            />
+            <span class="item">Supervisors</span>
+          </div>
+          <div class="section-two-filter-checkbox-item">
+            <input type="checkbox" id="eliteTaskerCheckbox" value="elite" />
+            <span class="item">Elite Tasker</span>
+          </div>
+          <div class="sorting-section">
+            <h4>Sorting</h4>
+            <div class="sorting-section-item">
+              <span class="item">By Rating</span>
+              <select id="ratingSort" class="sorting-selection">
+                <option value="descending">Descending</option>
+                <option value="ascending">Ascending</option>
+              </select>
+            </div>
+            <div class="sorting-section-item">
+              <span class="item">By Tasks Count</span>
+              <select id="tasksSort" class="sorting-selection">
+                <option value="descending">Descending</option>
+                <option value="ascending">Ascending</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-two-user"></div>
+    </section>
+
+    <!-- SECTION -->
+    <section class="section-three">
+      <div class="section-three-phone">
+        <img src="./assets/iphone-12-mini--black.png" alt="Iphone" />
+      </div>
+      <div class="section-three-description">
+        <h4>Download the izzi mobile app</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br/> industry. When an unknown printer took</p>
+        <div class="section-three-description-btns-group">
+          <button><i class="fa-brands fa-apple"></i><span>App Store</span></button>
+          <button><i class="fa-brands fa-google-play"></i><span>Google Play</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <section class="footer-content">
+        <div class="footer-section company-info">
+          <img src="./assets/logo.png" alt="izzi Logo">
+          <p>izzi is the major platform in <br/> Azerbaijan to request help <br/> from taskers.</p>
+        </div>
+        <div class="footer-section company-details">
+          <h4 class="footer-section-text">izzi Ltd.</h4>
+          <div class="footer-contact-details">
+            <p>Location Address</p>
+            <p>Email: <a href="mailto:info@izzi.com" class="contact-link">info@izzi.com</a></p>
+            <p>Phone: <a href="tel:+99450XXXXXX" class="contact-link">+994 (50) XX XXXX</a></p>
+            <p>Registration No: NR21465161</p>
+          </div>
+        </div>
+        <nav class="footer-section">
+          <h4 class="footer-section-text">Book a Service</h4>
+          <ul>
+            <li><a href="#" class="contact-link">Browse Services</a></li>
+            <li><a href="#" class="contact-link">Find Taskers</a></li>
+            <li><a href="#" class="contact-link">How Does it Work?</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-section">
+          <h4 class="footer-section-text">Extra Links</h4>
+          <ul>
+            <li><a href="#"  class="contact-link">About Us</a></li>
+            <li><a  href="#" class="contact-link">FAQ</a></li>
+            <li><a  href="#" class="contact-link">Contact Us</a></li>
+            <li><a  href="#" class="contact-link">Become a Tasker</a></li>
+          </ul>
+        </nav>
+      </section>
+    
+      <section class="footer-bottom">
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="legal-links">
+          <p>&copy; 2021 izzi Ltd.</p>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b5d015e04a.js" crossorigin="anonymous"></script>
+  </body>
+</html>

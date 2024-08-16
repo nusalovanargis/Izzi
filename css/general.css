@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-color: #fff,
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  margin-right: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 460px) {
+  body {
+    font-size: 12px;
+  }
+}
